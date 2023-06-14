@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 51px 68px 58px 0px;
+
+  background: #2e7cdf;
+  display: flex;
+}
+
+img {
+  width: 538px;
+  height: 697px;
+}
+
+.text {
+  width: 50%;
+  margin-left: 200px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+label {
+  width: 100%;
+  /* height: 30px; */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+input {
+  margin-top: 15px;
+  width: 100%;
+  height: 50px;
+  background: #2E7CDF;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 13px 422px 12px 29px;
+}
+
+input::placeholder {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.message {
+  height: 150px;
+}
+
+button {
+  width: 100%;
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  background: #ffffff;
+  border: 1px solid #2e7cdf;
+  border-radius: 5px;
+}
+
+p {
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #2e7cdf;
+}
+
+.tvitter {
+  width: 50px;
+  height: 34.42px;
+}
+
+
+
+.icons img {
+  width: 75px;
+  height: 75px;
+  margin-left: 23px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}

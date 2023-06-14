@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 51px 71px 97px 75px;
+    background: rgba(203, 197, 193, 0.35);
+}
+
+h1 {
+    margin-bottom: 75px;
+    font-family: 'Lexend';
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #0E3C8A;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    padding-top: 12px;
+    width: 30%;
+    list-style-type: none;
+    background: #FFFFFF;
+    border-width: 0px 2px 2px 0px;
+    border-style: solid;
+    border-color: #2E7CDF;
+    box-shadow: 4px 4px 4px #2E7CDF;
+    border-radius: 10px;
+}
+li img {
+    width: 420px;
+height: 206px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #051E55;
+}
+
+.text-container {
+    padding: 17px 16px 28px 35px;
+}
+
+
+
+.date-clock {
+    display: flex;
+    align-items: center;
+}
+
+.date-clock img {
+    width: 29px;
+height: 27px;
+margin-right: 10px;
+}
+
+
+
+
+
